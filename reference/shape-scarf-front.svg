@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128">
+<polygon fill="hsl(0 80% 32%)" points="0,0 48,0 64,4 80,0 128,0 96,16 96,32 128,96 96,128 64,112 32,128 0,96 32,32 32,16" />
+<line stroke="hsl(240 80% 18%)" stroke-width="16" x1="32" y1="24" x2="96" y2="24" />
+<path stroke="hsl(0 0% 100%)" stroke-width='1' d="
+  M 32 19
+  h 64
+  M 32 29
+  h 64
+" />
+</svg>

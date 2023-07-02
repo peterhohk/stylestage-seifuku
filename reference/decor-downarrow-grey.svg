@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+<path stroke="hsl(240 20% 18%)" stroke-width="1" stroke-linecap="round" fill="none" d="
+  M 36 7
+  Q 44 29 42 61
+  l 6 -10
+  l -11 -1
+  l 5 11
+" />
+</svg>

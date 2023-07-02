@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+<rect fill="hsl(345 80% 82%)" x="0" y="0" width="64" height="64" />
+<path stroke="hsl(0 0% 100%)" stroke-width="8" stroke-opacity="0.5" stroke-linecap="square" fill="none" d="
+  M 1 -1
+  L -1 1
+  M 64 0
+  L 0 64
+  M 65 63
+  L 63 65
+" />
+<path stroke="hsl(0 0% 100%)" stroke-width="1" stroke-linecap="square" fill="none" d="
+  M 1 -1
+  L -1 1
+  M 30 0
+  L 0 30
+  M 34 0
+  L 0 34
+  M 64 0
+  L 0 64
+  M 64 30
+  L 30 64
+  M 64 34
+  L 34 64
+  M 65 63
+  L 63 65
+" />
+</svg>
