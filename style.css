@@ -44,15 +44,16 @@ ol {
   /* ブレザー theme colours */
   --cold-black: hsl(255 80% 8%);
   --gold: hsl(50 80% 50%);
+  /* colours with transparency */
+  --white-a50: hsl(0 0% 100% / 0.5);
+  --grey-a50: hsl(240 20% 18% / 0.5);
+  --black-a25: hsl(0 0% 0% / 0.25);
 
   --fs-h1: 6rem;
   --fs-h2: 2rem;
   --fs-hs: 1.5rem;
   --font-decor: normal 1.5rem/1.5 "Rouge Script", cursive;
 
-  --white-a50: hsl(0 0% 100% / 0.5);
-  --grey-a50: hsl(240 20% 18% / 0.5);
-  --black-a25: hsl(0 0% 0% / 0.25);
   --bshadow-large: 0 0.5rem 0.25rem var(--grey-a50);
   --bshadow-small: 0 0.125rem 0.0625rem var(--grey-a50);
   --pt-hlines: repeating-linear-gradient(transparent 0% 25%, var(--white) 25% 37.5%);
@@ -415,22 +416,22 @@ h2:not(header h2)::after {
   transform: rotate(-2deg);
 }
 /* gosh i wish i am using scss right now */
-#about ul li:nth-of-type(16n   ) { --a: hsl(  0   80% 82%); }
-#about ul li:nth-of-type(16n+1 ) { --a: hsl( 22.5 80% 82%); }
-#about ul li:nth-of-type(16n+2 ) { --a: hsl( 45   80% 82%); }
-#about ul li:nth-of-type(16n+3 ) { --a: hsl( 67.5 80% 82%); }
-#about ul li:nth-of-type(16n+4 ) { --a: hsl( 90   80% 82%); }
-#about ul li:nth-of-type(16n+5 ) { --a: hsl(112.5 80% 82%); }
-#about ul li:nth-of-type(16n+6 ) { --a: hsl(135   80% 82%); }
-#about ul li:nth-of-type(16n+7 ) { --a: hsl(157.5 80% 82%); }
-#about ul li:nth-of-type(16n+8 ) { --a: hsl(180   80% 82%); }
-#about ul li:nth-of-type(16n+9 ) { --a: hsl(202.5 80% 82%); }
-#about ul li:nth-of-type(16n+10) { --a: hsl(225   80% 82%); }
-#about ul li:nth-of-type(16n+11) { --a: hsl(247.5 80% 82%); }
-#about ul li:nth-of-type(16n+12) { --a: hsl(270   80% 82%); }
-#about ul li:nth-of-type(16n+13) { --a: hsl(292.5 80% 82%); }
-#about ul li:nth-of-type(16n+14) { --a: hsl(315   80% 82%); }
-#about ul li:nth-of-type(16n+15) { --a: hsl(337.5 80% 82%); }
+#about ul li:nth-of-type(16n+1 ) { --a: hsl(  0   80% 82%); }
+#about ul li:nth-of-type(16n+2 ) { --a: hsl( 22.5 80% 82%); }
+#about ul li:nth-of-type(16n+3 ) { --a: hsl( 45   80% 82%); }
+#about ul li:nth-of-type(16n+4 ) { --a: hsl( 67.5 80% 82%); }
+#about ul li:nth-of-type(16n+5 ) { --a: hsl( 90   80% 82%); }
+#about ul li:nth-of-type(16n+6 ) { --a: hsl(112.5 80% 82%); }
+#about ul li:nth-of-type(16n+7 ) { --a: hsl(135   80% 82%); }
+#about ul li:nth-of-type(16n+8 ) { --a: hsl(157.5 80% 82%); }
+#about ul li:nth-of-type(16n+9 ) { --a: hsl(180   80% 82%); }
+#about ul li:nth-of-type(16n+10) { --a: hsl(202.5 80% 82%); }
+#about ul li:nth-of-type(16n+11) { --a: hsl(225   80% 82%); }
+#about ul li:nth-of-type(16n+12) { --a: hsl(247.5 80% 82%); }
+#about ul li:nth-of-type(16n+13) { --a: hsl(270   80% 82%); }
+#about ul li:nth-of-type(16n+14) { --a: hsl(292.5 80% 82%); }
+#about ul li:nth-of-type(16n+15) { --a: hsl(315   80% 82%); }
+#about ul li:nth-of-type(16n   ) { --a: hsl(337.5 80% 82%); }
 
 /* -------- */
 
