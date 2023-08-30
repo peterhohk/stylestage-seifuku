@@ -2,7 +2,7 @@
 
 A stylesheet submission to [Style Stage](https://stylestage.dev/).
 
-Inspired by the aesthetics of Japanese school uniforms. Specifically, the [セーラー服 / *sailor-fuku*](https://www.google.com/search?q=%E3%82%BB%E3%83%BC%E3%83%A9%E3%83%BC%E6%9C%8D&tbm=isch) and the [ブレザー / *blazer*](https://www.google.com/search?q=%E3%83%96%E3%83%AC%E3%82%B6%E3%83%BC&tbm=isch).
+Inspired by the aesthetics of Japanese school uniforms.
 
 ## Techs used
 
