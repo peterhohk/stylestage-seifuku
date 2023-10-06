@@ -4,7 +4,7 @@ A stylesheet submission to [Style Stage](https://stylestage.dev/).
 
 Inspired by the aesthetics of Japanese school uniforms.
 
-## Techs used
+## Tech stack
 
 - HTML & CSS
 
