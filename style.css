@@ -204,17 +204,6 @@ a[class^="link"]:focus-visible {
   color: var(--gold);
   text-shadow: 0 0.125ch var(--grey);
 }
-::-webkit-scrollbar {
-  background-color: transparent;
-  width: 0.25rem;
-  height: 0.25rem;
-}
-::-webkit-scrollbar-thumb {
-  background-color: var(--navy);
-}
-::-webkit-scrollbar-track, ::-webkit-scrollbar-corner {
-  background-color: var(--white);
-}
 
 /* GENERAL STYLE ENDS */
 
