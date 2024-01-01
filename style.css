@@ -119,7 +119,7 @@ strong {
   text-shadow: 0 0.03125em 0.0625em, 0 0.0625em 0.0625em;
 }
 a {
-  color: unset;
+  color: inherit;
   text-decoration: underline double;
   transition: color 0.4s;
 }
@@ -655,7 +655,7 @@ h2:not(header h2)::after {
   box-shadow: var(--bshadow-large);
 }
 .features a {
-  color: unset;
+  color: inherit;
   font-size: 1.5rem;
   line-height: 1;
   text-decoration: none;
