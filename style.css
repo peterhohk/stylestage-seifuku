@@ -120,20 +120,27 @@ strong {
 }
 a {
   color: inherit;
+  background-image: linear-gradient(90deg, var(--light-red) 50%, transparent 50%);
+  background-size: 200% 50%;
+  background-repeat: no-repeat;
+  background-position: bottom right;
   text-decoration: underline double;
-  transition: color 0.4s;
+  text-shadow: 0 0 0.25em var(--white);
+  transition: background-position 0.4s, color 0.4s;
 }
 a:hover,
 a:focus-visible {
-  background-image: linear-gradient(transparent 50%, var(--light-red) 50%);
-  text-shadow: 0 0 0.25em var(--white), 0 0 0.25em var(--white);
+  background-position: bottom left;
+}
+header a,
+.page-footer a {
+  background-image: none;
+  text-shadow: none;
 }
 header a:hover,
 header a:focus-visible,
 .page-footer a:hover,
 .page-footer a:focus-visible {
-  background-image: none;
-  text-shadow: none;
   color: var(--gold);
 }
 a[class^="link"] {
@@ -148,8 +155,10 @@ a[class^="link"] {
   margin-right: auto;
   border: 0.125rem dashed;
   background-color: var(--white);
+  background-image: none;
   color: var(--navy);
   text-decoration: none;
+  text-shadow: none;
   box-shadow: var(--bshadow-large);
   transition: transform 0.4s;
 }
@@ -162,8 +171,6 @@ a[class^="link"]:not(.link-github)::before {
 }
 a[class^="link"]:hover,
 a[class^="link"]:focus-visible {
-  background-image: none;
-  text-shadow: none;
   color: var(--navy);
   transform: scale(1.125);
 }
@@ -198,7 +205,6 @@ a[class^="link"]:focus-visible {
   width: auto;
   height: auto;
   background-image: none;
-  text-shadow: none;
 }
 ::selection {
   background-color: var(--red);
@@ -270,7 +276,9 @@ nav a {
   display: inline-block;
   width: 100%;
   padding: 0.25rem 0.5rem;
+  background-image: none;
   text-decoration: none;
+  text-shadow: none;
 }
 nav a::before {
   content: "";
@@ -285,8 +293,6 @@ nav a::before {
 }
 nav a:hover,
 nav a:focus-visible {
-  background-image: none;
-  text-shadow: none;
   color: var(--red);
 }
 nav a:hover::before,
@@ -627,7 +633,6 @@ h2:not(header h2)::after {
 .features li:hover a,
 .features li:focus-within a {
   background-image: none;
-  text-shadow: none;
 }
 .features li::before {
   content: var(--svg-decor-safetypin-gold);
@@ -658,7 +663,9 @@ h2:not(header h2)::after {
   color: inherit;
   font-size: 1.5rem;
   line-height: 1;
+  background-image: none;
   text-decoration: none;
+  text-shadow: none;
 }
 .features a > span {
   position: absolute;
