@@ -196,6 +196,7 @@ a[class^="link"]:focus-visible {
   padding: 0.25rem;
   background-color: var(--red);
   color: var(--gold);
+  text-shadow: none;
   z-index: 10000;
 }
 .skip-link:focus {
