@@ -1,6 +1,6 @@
 # Style Stage: Seifuku
 
-A stylesheet submission to [Style Stage](https://stylestage.dev/).
+Stylesheet submission to [Style Stage](https://stylestage.dev/).
 
 Inspired by the aesthetics of Japanese school uniforms.
 
